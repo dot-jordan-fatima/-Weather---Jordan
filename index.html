@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in jordan</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="navbar">
+
+    <div class="logo">
+        🌤️ Weather App
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cities</a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="mode">
+        
+        <button  id="modeButton">🌙</button>
+    </div>
+
+</header>
+<section class="hero">
+    <h1>Check the Weather<br>Anywhere</h1>
+    <p>Get real-time weather information for cities across Jordan</p>
+    <div class="city-select">
+    <label for="citySelect">Choose a city</label>
+
+    <select id="citySelect">
+        <option value="">Select a city</option>
+        <option value="Amman">Amman</option>
+        <option value="Irbid">Irbid</option>
+        <option value="Jerash">Jerash</option>
+        <option value="Zarqa">Zarqa</option>
+        <option value="Aqaba">Aqaba</option>
+        <option value="Madaba">Madaba</option>
+        <option value="Salt">Salt</option>
+        <option value="Karak">Karak</option>
+        <option value="Mafraq">Mafraq</option>
+    </select>
+</div>
+    <div class="weather-card">
+    <h2 id="cityName">Amman 🇯🇴</h2>
+    <p id="country">Jordan</p>
+
+    <div class="temperature">
+    <span id="weatherIcon">☀️</span>
+    <span id="temperature">24°C</span>
+</div>
+    <p id="description">Sunny</p>
+    <div class="weather-info" >
+<div>
+<p> 🌡️Feels like</p>
+  <strong  id="feelsLike">25°C</strong>
+</div>
+<div>
+<p>💧 Humidity</p>
+        <strong id="humidity">45%</strong>
+</div>
+<div>
+            <p>💨 Wind</p>
+        <strong id="wind">12 km/h</strong>
+    </div>
+    <div>
+    <p>⏱️ Pressure</p>
+    <strong id="pressure">1012 hPa</strong>
+</div>
+    </div>
+</div>
+</section>
+<section class="about">
+    <h2>About Weather </h2>
+    <p>
+        Weather App provides weather information for cities across Jordan.
+        Choose a city to check its current weather conditions.
+    </p>
+</section>
+<footer class="footer">
+    <p>© 2026 Weather | Jordan</p>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
